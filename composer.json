@@ -1,0 +1,25 @@
+{
+  "name": "discommand2/plugin-sql",
+  "description": "Handles database interactions, offering SQL capabilities to the system.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Russell Purinton",
+      "email": "russell.purinton@gmail.com"
+    }
+  ],
+  "support": {
+    "discord": "https://discord.gg/yMs5vgvyV4"
+  },
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Discommand2\\Plugins\\SQL\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "version": "2.0.0"
+}
